@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.jzstudio.calculator.JZCalcutor">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="230" height="350"/>
+    </constraints>
+    <properties>
+      <background color="-12849799"/>
+      <maximumSize width="230" height="350"/>
+      <minimumSize width="230" height="350"/>
+      <preferredSize width="230" height="350"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e87df" class="javax.swing.JLabel" binding="display_Lbl">
+        <constraints border-constraint="North"/>
+        <properties>
+          <focusTraversalPolicyProvider value="false"/>
+          <font name="Courier" size="52"/>
+          <horizontalAlignment value="11"/>
+          <maximumSize width="230" height="80"/>
+          <minimumSize width="230" height="80"/>
+          <preferredSize width="230" height="80"/>
+          <text value="9"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <grid id="c9820" layout-manager="FormLayout">
+        <rowspec value="center:49px:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:p:noGrow"/>
+        <colspec value="fill:max(p;4px):noGrow"/>
+        <colspec value="fill:max(p;4px):noGrow"/>
+        <colspec value="fill:max(p;4px):noGrow"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <maximumSize width="230" height="270"/>
+          <minimumSize width="230" height="270"/>
+          <preferredSize width="230" height="270"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f15da" class="javax.swing.JButton" binding="clear_Btn">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <label value="AC"/>
+              <preferredSize width="57" height="47"/>
+              <text value="AC"/>
+            </properties>
+          </component>
+          <component id="6567a" class="javax.swing.JButton" binding="sign_Btn">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="+/-"/>
+            </properties>
+          </component>
+          <component id="ca40a" class="javax.swing.JButton" binding="percent_Btn">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="%"/>
+            </properties>
+          </component>
+          <component id="be7ae" class="javax.swing.JButton" binding="divide_Btn">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="÷"/>
+            </properties>
+          </component>
+          <component id="4a42" class="javax.swing.JButton" binding="number7_Btn">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="c94f3" class="javax.swing.JButton" binding="number8_Btn">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="83bcc" class="javax.swing.JButton" binding="number9_Btn">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="3c5df" class="javax.swing.JButton" binding="multiply_Btn">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="×"/>
+            </properties>
+          </component>
+          <component id="d2749" class="javax.swing.JButton" binding="number4_Btn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="c551c" class="javax.swing.JButton" binding="number5_Btn">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="c9287" class="javax.swing.JButton" binding="number6_Btn">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="af185" class="javax.swing.JButton" binding="subtract_Btn">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="−"/>
+            </properties>
+          </component>
+          <component id="865cd" class="javax.swing.JButton" binding="number1_Btn">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="5af03" class="javax.swing.JButton" binding="number2_Btn">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="9ab8c" class="javax.swing.JButton" binding="number3_Btn">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="b963" class="javax.swing.JButton" binding="add_Btn">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="7a19d" class="javax.swing.JButton" binding="number0_Btn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="1d644" class="javax.swing.JButton" binding="dot_Btn">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="."/>
+            </properties>
+          </component>
+          <component id="53210" class="javax.swing.JButton" binding="equal_Btn">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="57" height="47"/>
+              <text value="="/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
