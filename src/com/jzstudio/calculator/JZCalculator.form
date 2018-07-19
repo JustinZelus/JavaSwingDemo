@@ -21,7 +21,7 @@
           <maximumSize width="230" height="80"/>
           <minimumSize width="230" height="80"/>
           <preferredSize width="230" height="80"/>
-          <text value="9"/>
+          <text value="0"/>
           <verticalAlignment value="3"/>
           <verticalTextPosition value="0"/>
         </properties>
